@@ -51,6 +51,7 @@ display: flex;
         // autoPlaySpeed={6000}
         transitionDuration={600}
         removeArrowOnDeviceType={["tablet", "mobile", "superLargeDesktop"]}
+        renderButtonGroupOutside={true}
         customButtonGroup={<ButtonGroup />}
       >
         {product}
